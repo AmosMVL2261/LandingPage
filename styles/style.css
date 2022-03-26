@@ -1,0 +1,107 @@
+* {
+    /*border: 1px solid red;*/
+    padding: 0vh 0vw;
+    margin: 0vh 0vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+header {
+    background-color: #1F2937;
+    color: white;
+}
+
+/*First part of the header*/
+.general_options {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vh 5vw;
+    height:5vh;
+}
+
+li {
+    list-style:none;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-flow: nowrap;
+    gap: 10vw;
+}
+
+div.general_options p {
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: 'Karma', serif;
+}
+
+/*Second part of the header*/
+
+.front{
+    height: 60vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    padding: 0vh 10vw;
+}
+
+
+.front_text, .front_image{
+    width: 40vw;
+    height: 32vh;
+}
+
+.front_text{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+
+}
+
+.front_image {
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
+}
+
+div.front_image {
+    background-image: url(../images/front_sky.jpg);
+    background-size:cover;
+}
+
+div.front_text p {
+    font-size: 1.4em;
+    font-weight: 300;
+    text-align: justify;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    min-height: 35px;
+    min-width: 120px;
+    max-height: 35px;
+    max-width: 120px;
+    background-color: #3882F6;
+    color: aliceblue;
+    font-size: 1.1em;
+}
+
+button:hover {
+    border: 2px solid white;
+}
+
+div.front_text button{
+    align-self: flex-start;
+}
