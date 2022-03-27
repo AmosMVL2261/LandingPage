@@ -1,5 +1,4 @@
 * {
-    border: 1px solid red;
     padding: 0vh 0vw;
     margin: 0vh 0vw;
     font-family: 'Roboto', sans-serif;
@@ -140,7 +139,9 @@ section.information {
     gap: 4vw;
 }
 
-
+h2{
+    margin-bottom: 3vh;
+}
 
 .boxes {
     height: 450px;
@@ -196,7 +197,7 @@ section.advice {
 }
 
 section#advice {
-    padding: 5vh 0vw;
+    padding: 2.5vh 0vw;
 }
 
 .advice_box {
