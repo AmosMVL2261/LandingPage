@@ -17,9 +17,9 @@
         <div class="general_options">
             <p>Night sky</p>
             <ul>
-                <li>Celestial Objects</li>
-                <li>Famous Quote</li>
-                <li>More Information</li>
+                <li><a href="#information">Celestial Objects</a></li>
+                <li><a href="#quote">Famous Quote</a></li>
+                <li><a href="#advice">More Information</a></li>
             </ul>
         </div>
         <div class="front">
@@ -30,42 +30,67 @@
                     nighttime appearance of celestial objects which are visible in a clear sky between 
                     sunset and sunrise, when the Sun is below the horizon.
                 </p>
-                <button type="button">Know more</button>
+                <button type="button"><a href="https://en.wikipedia.org/wiki/Night_sky" target="_blank">Know more</a></button>
             </div>
             <div class="front_image">
-                <!--Night sky image background-->
+                <img src="./images/front_sky.jpg" alt="night sky">
             </div>
         </div>
     </header>
 
-    <section class="information">
+    <section class="information" id="information">
         <h2>Celestial objects</h2>
-        <div>
-            <div>
-                <div><img src="./images/" alt=""></div>
-                <div><p>Description</p></div>
+        <div class="container">
+            <div class="boxes">
+                <div class="pictures"><img src="./images/moon.jpg" alt="moon"></div>
+                <div class="descriptions">
+                    <h3>Moon</h3>
+                    <p>
+                        The Moon is Earth's only natural satellite. Both the Moon's prominence in the earthly sky and its regular cycle of 
+                        phases have provided cultural references and influences for human societies throughout history.
+                    </p>
+                </div>
             </div>
-            <div>
-                <div><img src="./images/" alt=""></div>
-                <div><p>Description</p></div>
+            <div class="boxes">
+                <div class="pictures"><img src="./images/milk_way.jpg" alt="milky way"></div>
+                <div class="descriptions">
+                    <h3>Milky Way</h3>
+                    <p>
+                        The Milky Way is the galaxy that includes our Solar System, with the name describing the galaxy's appearance from Earth: 
+                        a hazy band of light seen in the night sky formed from stars.
+                    </p>
+                </div>
             </div>
-            <div>
-                <div><img src="./images/" alt=""></div>
-                <div><p>Description</p></div>
+            <div class="boxes">
+                <div class="pictures"><img src="./images/comet.jpg" alt="comet"></div>
+                <div class="descriptions">
+                    <h3>Comet</h3>
+                    <p>
+                        A comet is an icy, small Solar System body that, when passing close to the Sun, warms 
+                        and begins to release gases. This produces a visible atmosphere or coma, and sometimes also a tail.
+                    </p>
+                </div>
             </div>
-            <div>
-                <div><img src="./images/" alt=""></div>
-                <div><p>Description</p></div>
+            <div class="boxes">
+                <div class="pictures"><img src="./images/aurora.jpg" alt="aurora"></div>
+                <div class="descriptions">
+                    <h3>Aurora</h3>
+                    <p>
+                        An aurora is a natural light display in Earth's sky, predominantly seen in high-latitude regions. 
+                        Auroras display dynamic patterns of brilliant lights that appear as curtains, rays, spirals, 
+                        or dynamic flickers covering the entire sky.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="quote">
+    <section class="quote" id="quote">
         <p class="quote_phrase">“For my part I know nothing with any certainty, but the sight of the stars makes me want to dream.”</p>
         <p class="quote_author">― Vincent Van Gogh, Van Gogh's Starry Night Notebook</p>
     </section>
 
-    <section class="advice">
+    <section class="advice" id="advice">
         <div class="advice_box">
             <div class="advice_info">
                 <p>
@@ -75,7 +100,7 @@
                 </p>
             </div>
             <div class="advice_button">
-                <button type="button">Know more</button>
+                <button type="button"><a href="https://en.wikipedia.org/wiki/Night_sky" target="_blank">Know more</a></button>
             </div>
         </div>
     </section>
